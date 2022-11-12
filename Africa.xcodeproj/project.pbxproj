@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D17B76329202A6E00942478 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17B76229202A6E00942478 /* AnimalDetailView.swift */; };
+		3D17B76529202FA900942478 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17B76429202FA900942478 /* HeadingView.swift */; };
+		3D17B767292037B900942478 /* InsentGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17B766292037B900942478 /* InsentGalleryView.swift */; };
 		3D4D7E202905933E00AAF44B /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D7E1F2905933E00AAF44B /* AfricaApp.swift */; };
 		3D4D7E222905933E00AAF44B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D7E212905933E00AAF44B /* ContentView.swift */; };
 		3D4D7E242905934000AAF44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4D7E232905934000AAF44B /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D17B76229202A6E00942478 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		3D17B76429202FA900942478 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		3D17B766292037B900942478 /* InsentGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsentGalleryView.swift; sourceTree = "<group>"; };
 		3D4D7E1C2905933E00AAF44B /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4D7E1F2905933E00AAF44B /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		3D4D7E212905933E00AAF44B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +171,9 @@
 			children = (
 				3D4D7E5629144AF300AAF44B /* CoverImageView.swift */,
 				3D4D7E5F29198C6100AAF44B /* AnimalListItemView.swift */,
+				3D17B76229202A6E00942478 /* AnimalDetailView.swift */,
+				3D17B76429202FA900942478 /* HeadingView.swift */,
+				3D17B766292037B900942478 /* InsentGalleryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,17 +279,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D17B767292037B900942478 /* InsentGalleryView.swift in Sources */,
 				3D4D7E222905933E00AAF44B /* ContentView.swift in Sources */,
 				3D4D7E6029198C6100AAF44B /* AnimalListItemView.swift in Sources */,
 				3D4D7E54290598E200AAF44B /* MainView.swift in Sources */,
 				3D4D7E5729144AF300AAF44B /* CoverImageView.swift in Sources */,
 				3D4D7E5A29144E5200AAF44B /* CoverImageModel.swift in Sources */,
+				3D17B76329202A6E00942478 /* AnimalDetailView.swift in Sources */,
 				3D4D7E622919961B00AAF44B /* AnimalModel.swift in Sources */,
 				3D4D7E50290598AB00AAF44B /* MapView.swift in Sources */,
 				3D4D7E202905933E00AAF44B /* AfricaApp.swift in Sources */,
 				3D4D7E4E2905988B00AAF44B /* VideoListView.swift in Sources */,
 				3D4D7E52290598C300AAF44B /* GalleryView.swift in Sources */,
 				3D4D7E5E2914504B00AAF44B /* CodableBundleExtension.swift in Sources */,
+				3D17B76529202FA900942478 /* HeadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,6 +461,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
