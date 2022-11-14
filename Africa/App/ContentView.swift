@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         // MARK: PROPERTIES
         
         let animals: [Animal] = Bundle.main.decode("animals.json")
@@ -23,7 +24,7 @@ struct ContentView: View {
                     NavigationLink(destination: AnimalDetailView(animal: animal)){
                         AnimalListItemView(animal: animal)
                     }//: LINK
-                     
+                    
                     
                 }//: LOOP
             }//: LIST
