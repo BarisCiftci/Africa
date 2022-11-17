@@ -22,7 +22,7 @@ struct AnimalDetailView: View {
                 Image(animal.image)
                     .resizable()
                     .scaledToFit()
-                    .cornerRadius(30)
+                    .cornerRadius(12)
                 
                 //: TITLE
                 
