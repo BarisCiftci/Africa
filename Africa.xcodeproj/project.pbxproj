@@ -13,6 +13,7 @@
 		3D126C7A2929740700A7B08B /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126C792929740700A7B08B /* VideoPlayerHelper.swift */; };
 		3D126C7C29297BB600A7B08B /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126C7B29297BB600A7B08B /* LocationModel.swift */; };
 		3D126C7E292986E800A7B08B /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126C7D292986E800A7B08B /* MapAnnotationView.swift */; };
+		3D126C80292AC68B00A7B08B /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126C7F292AC68B00A7B08B /* MotionAnimationView.swift */; };
 		3D17B76329202A6E00942478 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17B76229202A6E00942478 /* AnimalDetailView.swift */; };
 		3D17B76529202FA900942478 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17B76429202FA900942478 /* HeadingView.swift */; };
 		3D17B767292037B900942478 /* InsentGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17B766292037B900942478 /* InsentGalleryView.swift */; };
@@ -55,6 +56,7 @@
 		3D126C792929740700A7B08B /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		3D126C7B29297BB600A7B08B /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		3D126C7D292986E800A7B08B /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		3D126C7F292AC68B00A7B08B /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		3D17B76229202A6E00942478 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		3D17B76429202FA900942478 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		3D17B766292037B900942478 /* InsentGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsentGalleryView.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				3D126C742926B96E00A7B08B /* VideoListItemView.swift */,
 				3D126C76292972BA00A7B08B /* VideoPlayerView.swift */,
 				3D126C7D292986E800A7B08B /* MapAnnotationView.swift */,
+				3D126C7F292AC68B00A7B08B /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				3D4D7E5E2914504B00AAF44B /* CodableBundleExtension.swift in Sources */,
 				3D126C752926B96E00A7B08B /* VideoListItemView.swift in Sources */,
 				3D17B76D2922CF8A00942478 /* ExternalWebView.swift in Sources */,
+				3D126C80292AC68B00A7B08B /* MotionAnimationView.swift in Sources */,
 				3D17B76529202FA900942478 /* HeadingView.swift in Sources */,
 				3D126C77292972BA00A7B08B /* VideoPlayerView.swift in Sources */,
 			);
